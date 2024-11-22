@@ -18,20 +18,40 @@
     font-size: 22px;
 }
 
-            /* CARDS UL */
-.product__list {
+            /* product-list */
+.product-list {
     display: flex;
     gap: 6px;
     list-style-type: none;
 }
 
-            /* LI */
-.product__list-item {
+            /* li */
+.product-list__item {
     width: 266px;
     min-height: 601px;
 }
 
-            /* CARD */
+.background-style-1 {
+    color:  #E6C434;
+    background: linear-gradient(#FDC624, #E6C434 );
+}
+
+.background-style-2 {
+    color: #3DCAD4;
+    background: linear-gradient(#55DCE7, #3DCAD4);
+}
+
+.background-style-3 {
+    color: #3DACFC;
+    background: linear-gradient(#6BDFFF, #3DACFC);
+}
+
+.background-style-4 {
+    color: #939FB3;
+    background: linear-gradient(#BFCEDC, #939FB3);
+}
+
+            /* card */
 .card {
     position: relative;
     display: flex;
@@ -44,8 +64,8 @@
     color: white;
 }
 
-            /* CARD-IMAGE */
-.image__wrapper {
+            /* card-image */
+.card__image-wrapper {
     width: 196px;
     height: 150px;
     object-fit: fill;
@@ -53,19 +73,19 @@
     background-position: bottom;
 }
 
-.card__image__1 {
+.card__image-1 {
     background-image: url(../images/card1.png);
 }
 
-.card__image__2 {
+.card__image-2 {
     background-image: url(../images/card2.png);
 }
 
-.card__image__3 {
+.card__image-3 {
     background-image: url(../images/card3.png);
 }
 
-.card__image__4 {
+.card__image-4 {
     background-image: url(../images/card4.png);
 }
 
@@ -82,7 +102,7 @@
     text-align: start;
 }
 
-/* CONTENT */
+            /* content */
 .card__content {
     display: flex;
     flex-direction: column;
@@ -104,7 +124,7 @@
     font-size: 0.3em;
 }
 
-/* CARD UL  */
+            /* card-list */
 .card__list {
     display: flex;
     flex-direction: column;
@@ -116,34 +136,12 @@
     list-style-position: outside;
 }
 
-/* CARD LI  */
 .card__list-item {
     padding-left: 2px;
     font-weight: 500;
 }
 
-/* BACKGROUND-STYLES */
-.background__style__1 {
-    color:  #E6C434;
-    background: linear-gradient(#FDC624, #E6C434 );
-}
-
-.background__style__2 {
-    color: #3DCAD4;
-    background: linear-gradient(#55DCE7, #3DCAD4);
-}
-
-.background__style__3 {
-    color: #3DACFC;
-    background: linear-gradient(#6BDFFF, #3DACFC);
-}
-
-.background__style__4 {
-    color: #939FB3;
-    background: linear-gradient(#BFCEDC, #939FB3);
-}
-
-/* BUTTON */
+            /* button */
 /* нужно переделать кнопку - сделать её ссылкой */
 .card__button {
     display: flex;
@@ -166,7 +164,7 @@
     background-color: #fff;
 }
 
-/* TAG */
+            /* tag */
 .tag {
     position: absolute;
     top: 0;
